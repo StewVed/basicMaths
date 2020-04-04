@@ -1,0 +1,52 @@
+#sum {
+  line-height: 1em;
+  font-size:3em;
+  font-weight:900;
+  width:100%;
+  padding: 0em 0.1em;
+  box-sizing: border-box;
+}
+.button {
+  border-radius: 0.8em;
+  padding: 0.2em 0em;
+  width: 3em;
+  margin: 0.3em 0.1em;
+  border: .1em solid black;
+  font-weight:bold;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1em;
+}
+.backgroundOpacityGradient {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.1), hsla(0, 0%, 0%, 0.4));
+}
+.backgroundOpacityGradient:hover {
+  background: linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.3));
+}
+.backgroundOpacityGradient:active {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.2), hsla(0, 0%, 0%, 0.5));
+}
+.bInner {
+  position: relative;
+  top: 0;
+  width: 4em;
+  height: 1em;
+  padding: 0.2em 0em;
+}
+.syb {
+  width: 4em;
+  height: 0.9em;
+  transition: background 1s;
+  background-color: hsl(0, 0%, 100%);
+  padding: 0 0 0.4em 0;
+}
+@keyframes cRed {
+  0% {background-color: hsl(0, 0%, 100%);}
+  50% {background-color: hsl(0, 100%, 50%);}
+  100% {background-color: hsl(0, 0%, 100%);}
+}
+@keyframes cGreen {
+  0% {background-color: hsl(120, 0%, 100%);}
+  50% {background-color: hsl(120, 100%, 50%);}
+  100% {background-color: hsl(120, 0%, 100%);}
+}
